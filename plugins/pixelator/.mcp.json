@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "pixelator": {
+      "command": "npm",
+      "args": ["run", "mcp"],
+      "cwd": "../..",
+      "env": { "PIXELATOR_WORKSPACE": "./projects/moonfall" }
+    }
+  }
+}

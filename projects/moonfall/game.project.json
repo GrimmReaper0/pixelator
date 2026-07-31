@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "id": "moonfall",
+  "revision": 1,
+  "name": "Moonfall Village",
+  "description": "A compact top-down action vertical slice for Pixelator.",
+  "startSceneId": "village",
+  "viewport": { "x": 960, "y": 540 },
+  "scenes": ["scenes/village.scene.json"],
+  "characters": ["characters/mira.character.json"],
+  "assetIndex": []
+}
