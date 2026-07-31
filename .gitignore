@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+.env
+.pixelator/
+projects/*/assets/generated/*
+!projects/*/assets/generated/.gitkeep
+projects/*/exports/
+workflows/anima-turbo/workflow.api.json
+workflows/anima-turbo/bindings.json
+*.log
+.DS_Store

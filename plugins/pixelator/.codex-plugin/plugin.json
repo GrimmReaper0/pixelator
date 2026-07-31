@@ -1,0 +1,7 @@
+{
+  "name": "pixelator",
+  "version": "0.1.0",
+  "description": "Create, edit, preview, test, and polish local Phaser 2D games with structured project documents and Anima Turbo assets.",
+  "skills": "./skills",
+  "mcp": "./.mcp.json"
+}

@@ -1,0 +1,11 @@
+{
+  "positivePrompt": { "node": "6", "field": "text" },
+  "negativePrompt": { "node": "7", "field": "text" },
+  "seed": { "node": "3", "field": "seed" },
+  "width": { "node": "5", "field": "width" },
+  "height": { "node": "5", "field": "height" },
+  "steps": { "node": "3", "field": "steps" },
+  "referenceImage": { "node": "21", "field": "image" },
+  "ipAdapterStrength": { "node": "24", "field": "weight" },
+  "outputPrefix": { "node": "9", "field": "filename_prefix" }
+}

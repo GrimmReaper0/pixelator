@@ -1,0 +1,11 @@
+{
+  "name": "pixelator-repository",
+  "plugins": [
+    {
+      "name": "pixelator",
+      "source": { "source": "local", "path": "./plugins/pixelator" },
+      "policy": { "installation": "AVAILABLE", "authentication": "NONE" },
+      "category": "Developer Tools"
+    }
+  ]
+}

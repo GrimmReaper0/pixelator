@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "id": "mira",
+  "revision": 1,
+  "displayName": "Mira Vale",
+  "aliases": ["Mira", "Lantern Runner"],
+  "description": "A quick village courier who channels blue lantern fire.",
+  "traits": ["observant", "protective", "dry humor"],
+  "visualProfile": {
+    "hair": "short silver hair with a long left fringe",
+    "eyes": "dark blue",
+    "outfit": "navy travel coat with brass fasteners and a lantern on the right hip",
+    "silhouette": "small athletic frame, oversized coat hem, visible hip lantern",
+    "palette": ["#1d2434", "#4e6688", "#d4b26a", "#d9dde5", "#6aa7d8"]
+  },
+  "generationProfile": {
+    "provider": "anima-turbo",
+    "workflowId": "anima-turbo-character-v1",
+    "seedBank": [17488211, 90817420],
+    "ipAdapterStrength": 0.75
+  },
+  "gameplay": { "health": 100, "speed": 220, "abilities": ["lantern-bolt", "dash"] }
+}
