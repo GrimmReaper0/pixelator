@@ -1,11 +1,14 @@
 {
   "name": "pixelator",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Local-first AI Phaser game creator with Anima Turbo and a Codex MCP plugin.",
+  "description": "Pull-and-run local AI Phaser game creator powered by Anima Turbo and Codex MCP.",
   "engines": { "node": ">=22.12" },
   "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "start:all": "node scripts/start-all.mjs",
     "dev": "node scripts/dev.mjs",
     "studio": "vite --host 127.0.0.1 --port 4173",
     "bridge": "tsx src/bridge/server.ts",
